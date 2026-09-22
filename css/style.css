@@ -1,0 +1,80 @@
+body,
+html {
+    min-height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+#game-board {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+#game-board>div {
+    height: 18vw;
+    width: 18vw;
+    margin: 0.5vw;
+    background-color: rgb(207, 243, 255);
+    border-radius: 2vw;
+    user-select: none;
+}
+
+header {
+    font-size: 80px;
+    color: rgb(12, 75, 126);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+    color: rgb(207, 243, 255);
+}
+
+button {
+    height: 40px;
+    font-size: 18px;
+    width: 150px;
+    border-radius: 3px;
+    border-width: 0.1%;
+    align-content: center;
+}
+
+section#infos {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+section#infos>div {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (width > 500px) {
+    body {
+        padding-left: 30vw;
+        padding-right: 30vw;
+    }
+    #game-board>div {
+        height: 8vw;
+        width: 8vw;
+        margin: 0.5vw;
+    }
+}
