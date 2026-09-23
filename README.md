@@ -8,7 +8,7 @@
 
 ## About <a name = "about"></a>
 
-Memory project made during my but, in the web developpement class matching the pairs of pictures.
+Memory project made during my BUT, in the web developpement class matching the pairs of pictures.
 
 ## Usage <a name = "usage"></a>
 
