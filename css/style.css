@@ -36,7 +36,7 @@ body {
 }
 
 header {
-    font-size: 80px;
+    font-size: 40px;
     color: rgb(12, 75, 126);
 }
 
@@ -52,7 +52,7 @@ button {
     font-size: 18px;
     width: 150px;
     border-radius: 3px;
-    border-width: 0.1%;
+    border-width: 0.5px;
     align-content: center;
 }
 
