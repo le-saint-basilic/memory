@@ -11,14 +11,18 @@
 </head>
 
 <body>
-    <header aria-label="Titre" role="heading">Memory</header>
-    <section aria-label="lancer ou relancer le jeu" role="button"><button id="reset">Commencer</button></section>
-    <section id="infos" aria-label="scores" role="paragraph">
+    <header>
+        <h1>Memory</h1>
+    </header>
+    <section aria-label="Commandes du jeu">
+        <button id="reset">Commencer</button>
+    </section>
+    <section id="infos" aria-label="Informations du jeu" aria-live="polite">
         <div id="coups">Coups : 0</div>
         <div id="temps">Temps : 00:00</div>
         <div id="result"></div>
     </section>
-    <section id="game-board" aria-label="cartes" role="application"></section>
+    <main id="game-board" aria-label="Plateau de jeu"></main>
 </body>
 
 </html>
